@@ -19,7 +19,7 @@ _ = MessageFactory('guillotina')
         "name": "body",
         "in": "body",
         "schema": {
-            "$ref": "#/definitions/Addon"
+            "$ref": "#/components/schemas/Addon"
         }
     }])
 async def install(context, request):
@@ -52,7 +52,7 @@ async def install(context, request):
         "name": "body",
         "in": "body",
         "schema": {
-            "$ref": "#/definitions/Addon"
+            "$ref": "#/components/schemas/Addon"
         }
     }])
 async def uninstall(context, request):
@@ -101,7 +101,7 @@ async def uninstall_addon(context, request, id_to_uninstall):
         "200": {
             "description": "Get list of available and installed addons",
             "schema": {
-                "$ref": "#/definitions/AddonResponse"
+                "$ref": "#/components/schemas/AddonResponse"
             }
         }
     })

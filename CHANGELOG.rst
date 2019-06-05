@@ -4,7 +4,7 @@ CHANGELOG
 4.7.9 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- swagger2 upgrade to openapi3.0
 
 
 4.7.8 (2019-05-06)
