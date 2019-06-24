@@ -10,3 +10,4 @@ Contents:
    cache
    jsonbcatalog
    pubsub
+   dbusers
