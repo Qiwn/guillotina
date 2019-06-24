@@ -9,6 +9,8 @@ CHANGELOG
     - supporting token authentication from login form (1.3.0)
     - using @search endpoint to navigate in container items
 
+- Move guillotina_dbusers to guillotina.contrib.dbusers
+  [jordic]
 
 5.0.0a8 (2019-06-23)
 --------------------
